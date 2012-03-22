@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBC63526151B25F400DF611B /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC63525151B25F400DF611B /* bg.png */; };
+		CBC6352D151B26E300DF611B /* flipMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC6352C151B26E300DF611B /* flipMotion.m */; };
 		CBCACBFA151A054100798D9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCACBF9151A054100798D9E /* UIKit.framework */; };
 		CBCACBFC151A054100798D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCACBFB151A054100798D9E /* Foundation.framework */; };
 		CBCACBFE151A054100798D9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCACBFD151A054100798D9E /* CoreGraphics.framework */; };
@@ -33,24 +35,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBC63525151B25F400DF611B /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../../Downloads/bg.png; sourceTree = "<group>"; };
+		CBC6352B151B26E300DF611B /* flipMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flipMotion.h; sourceTree = "<group>"; };
+		CBC6352C151B26E300DF611B /* flipMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flipMotion.m; sourceTree = "<group>"; };
 		CBCACBF5151A054100798D9E /* SOF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCACBF9151A054100798D9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBCACBFB151A054100798D9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBCACBFD151A054100798D9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CBCACC01151A054100798D9E /* SOF-Info.plist */ = {isa = PBXFileReference; path = "SOF-Info.plist"; sourceTree = "<group>"; };
+		CBCACC01151A054100798D9E /* SOF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOF-Info.plist"; sourceTree = "<group>"; };
 		CBCACC03151A054100798D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBCACC05151A054100798D9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBCACC07151A054100798D9E /* SOF-Prefix.pch */ = {isa = PBXFileReference; path = "SOF-Prefix.pch"; sourceTree = "<group>"; };
-		CBCACC08151A054100798D9E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBCACC07151A054100798D9E /* SOF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOF-Prefix.pch"; sourceTree = "<group>"; };
+		CBCACC08151A054100798D9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBCACC09151A054100798D9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CBCACC0C151A054100798D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CBCACC0E151A054100798D9E /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CBCACC0E151A054100798D9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CBCACC0F151A054100798D9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CBCACC16151A054100798D9E /* SOFTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOFTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBCACC17151A054100798D9E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CBCACC1F151A054100798D9E /* SOFTests-Info.plist */ = {isa = PBXFileReference; path = "SOFTests-Info.plist"; sourceTree = "<group>"; };
+		CBCACC1F151A054100798D9E /* SOFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOFTests-Info.plist"; sourceTree = "<group>"; };
 		CBCACC21151A054100798D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBCACC23151A054100798D9E /* SOFTests.h */ = {isa = PBXFileReference; path = SOFTests.h; sourceTree = "<group>"; };
+		CBCACC23151A054100798D9E /* SOFTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOFTests.h; sourceTree = "<group>"; };
 		CBCACC24151A054100798D9E /* SOFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOFTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBC63523151B25E100DF611B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				CBC63525151B25F400DF611B /* bg.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		CBCACBEA151A054100798D9E = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +124,15 @@
 		CBCACBFF151A054100798D9E /* SOF */ = {
 			isa = PBXGroup;
 			children = (
+				CBC63523151B25E100DF611B /* img */,
 				CBCACC08151A054100798D9E /* AppDelegate.h */,
 				CBCACC09151A054100798D9E /* AppDelegate.m */,
 				CBCACC0B151A054100798D9E /* MainStoryboard.storyboard */,
 				CBCACC0E151A054100798D9E /* ViewController.h */,
 				CBCACC0F151A054100798D9E /* ViewController.m */,
 				CBCACC00151A054100798D9E /* Supporting Files */,
+				CBC6352B151B26E300DF611B /* flipMotion.h */,
+				CBC6352C151B26E300DF611B /* flipMotion.m */,
 			);
 			path = SOF;
 			sourceTree = "<group>";
@@ -223,6 +239,7 @@
 			files = (
 				CBCACC04151A054100798D9E /* InfoPlist.strings in Resources */,
 				CBCACC0D151A054100798D9E /* MainStoryboard.storyboard in Resources */,
+				CBC63526151B25F400DF611B /* bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +277,7 @@
 				CBCACC06151A054100798D9E /* main.m in Sources */,
 				CBCACC0A151A054100798D9E /* AppDelegate.m in Sources */,
 				CBCACC10151A054100798D9E /* ViewController.m in Sources */,
+				CBC6352D151B26E300DF611B /* flipMotion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +447,7 @@
 				CBCACC2A151A054100798D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBCACC2B151A054100798D9E /* Build configuration list for PBXNativeTarget "SOFTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +456,7 @@
 				CBCACC2D151A054100798D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
